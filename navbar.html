@@ -13,22 +13,29 @@
 <body>
     <div class="container-fluid p-0 m-0">
         <div class="row justify-content-center align-items-center g-0 p-0 m-0">
-            <nav class="navbar navbar-expand-md justify-content-around sticky-top text-center">
+            <nav class="navbar navbar-dark navbar-expand-md justify-content-around sticky-top text-center bg-navbar">
                 <div class="container-fluid p-0 m-0">
                     <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                    <span class="navbar-toggler-icon "></span>
+                    <span class="navbar-toggler-icon"></span>
                     </button>
                     
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                        <div class="offcanvas-header">
-                            <div class="row align-items-center g-0">
-                                <div class="col">
-                                <!-- <button type="button" class="btn-close btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+                    <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header d-block bg-navbar">
+                            <div class="row g-0">
+                                <div class="col-sm-12">
+                                    <div class="row justify-content-end align-items-center g-2 text-white">
+                                        <div class="col"></div>
+                                        <div class="col"></div>
+                                        <div class="col">
+                                            <button type="button" class="btn-close btn-close-white " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
-                                <div class="col">
-                                    <!-- <a href="/bootstrap/index.php">
-                                        <img class="logo-navbar-offcanvas" src="/bootstrap/assets/logo-cutelqui.png" alt="">
-                                    </a> -->
+                                <div class="col-sm-12">
+                                    <a href="/">
+                                        <img class="logo-navbar-offcanvas " src="/assets/disto-icon.png" alt="">
+                                    </a>
                                 </div>
                             </div>    
                         </div>
@@ -41,7 +48,7 @@
                                 <a class="nav-link dropdown-toggle text-center text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             NOSOTROS
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu text-center">
                                     <li><a class="dropdown-item text-white" href="#">EQUIPO</a></li>
                                     <li><a class="dropdown-item text-white" href="#">VISIÓN</a></li>          
                                 </ul>
@@ -50,7 +57,7 @@
                                 <a class="nav-link dropdown-toggle text-center text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     SOFTWARE
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu text-center">
                                     <li><a class="dropdown-item text-white" href="#">ORIGEN</a></li>
                                     <li><a class="dropdown-item text-white" href="#">FUNCIONALIDAD</a></li>
                                     <li><a class="dropdown-item text-white" href="#">INVESTIGACIÓN</a></li>
