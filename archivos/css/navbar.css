@@ -10,9 +10,10 @@
     height: 100px;
     object-fit: cover;
     image-rendering: optimizeQuality;
+    align-items: center;
 }
 html, body{
-    background-color: #071745;
+    /* background-color: #071745; */
     font-family: EuclidCircularB,-apple-system,BlinkMacSystemFont,Helvetica,Arial;
     -webkit-font-smoothing: antialiased;
 }

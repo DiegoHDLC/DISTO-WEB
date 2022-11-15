@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
+    <script> 
+        $(function(){
+            $("#navbar").load("navbar.html"); 
+        });
+    </script> 
+   
+    <title>DISTO</title>
+    <!-- set size for the icon -->
+
+    <link rel="icon" href="assets/disto-icon-2.ico" type="image/icon type" sizes="256x256">
+    <!-- add js -->
+
+</head>
+<body>
+    <div class="container-fluid p-0 m-0">
+        <div class="row justify-content-center align-items-center g-0 ">
+            <div class="col text-center">
+                <div style="height: 100px;">
+                    <img src="assets/disto-logo-white-blue.jpg" class="logo-disto" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="navbar" class="sticky-top"></div>
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="6000">
+                            <img src="assets/disto.png" class="d-block w-100 img-carousel" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="assets/disto.png" class="d-block w-100 img-carousel" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="6000">
+                            <img src="assets/disto.png" class="d-block w-100 img-carousel" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+            </div>
+           
+        </div>
+
+        
+        <!-- <div id="carousel"></div> -->
+        <div class="row justify-content-center g-0 align-items-center" >
+            <div class="col-md-6 col-sm-12 mt-3">
+                <div class="row justify-content-center p-0 g-0 m-0">
+                    <div class="card text-center" style="width: 80%;">
+                        <img src="assets/imagen-hablando.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Disfemia o Tartamudez</h5>
+                            <p class="card-text">La disfemia es un trastorno del habla que dificulta verbalización de palabras, produciendo bloqueos, pausas y/o espasmos</p>
+                            <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="w-100 clearfix d-md-none" />
+            <div class="col-md-6 col-sm-12 text-center">
+                <section >
+                    <h1 class="grow fw-bolder text-white mt-3">
+                        78,370,000
+                    </h1>
+                    <p class="text-white fs-4">
+                        Personas con disfemia en el mundo aproximadamente
+                    </p>
+                    <div class="row justify-content-center g-0 m-0 p-0">
+                        <p class="text-white fs-4 w-75">
+                            DISTO es una herramienta que busca ayudar a las personas con disfemia a mejorar su comunicación y calidad de vida.
+                        </p>
+                        <p class="text-white fs-4 w-75">
+                            Liberando del estado de bloqueo a la persona afectada por la disfemia y anticipandose a los bloqueos que pueda tener en la comunicación hablada.
+                        </p>
+                    </div>
+                </section> 
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+
+    
+    <script> 
+        $(function(){
+        $("#footer").load("footer.html"); 
+        });
+    </script>
+     <script>
+        $('.grow').each(function() {
+        var $el = $(this);
+        var max = numeral($el.text().replace(/\s/g, '')).value();
+        var start = 0;
+        var refresh = 10; 
+        var totalSteps = 400;
+        var step = max/totalSteps;
+        function calculate(){
+            start += step;
+            $el.text(numeral(Math.round(start)).format(0,0));
+            if(start < max){
+                setTimeout(function() {
+                    calculate();
+                }, refresh);
+            }
+        }
+        calculate();
+    });
+    </script>
+</body>
+</html>
